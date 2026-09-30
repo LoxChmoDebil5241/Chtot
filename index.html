@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#05070b">
+  <title>К-47. Нормы расхода плоти</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Russo+One&family=PT+Mono&family=PT+Sans+Narrow:wght@400;700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <canvas id="game"></canvas>
+    <div id="hud" class="hidden"></div>
+
+    <div id="screen-menu-bg" class="screen bg"><canvas id="menu-cv"></canvas></div>
+    <div id="screen-intro" class="screen"><canvas id="intro-cv"></canvas></div>
+    <div id="screen-menu" class="screen"></div>
+    <div id="screen-select" class="screen"></div>
+    <div id="screen-codex" class="screen"></div>
+    <div id="screen-settings" class="screen"></div>
+    <div id="screen-briefing" class="screen"></div>
+    <div id="screen-story" class="screen"></div>
+    <div id="screen-debrief" class="screen"></div>
+    <div id="screen-ending" class="screen"></div>
+
+    <div id="modal"></div>
+    <div id="toasts"></div>
+
+    <div id="splash">
+      <div class="sp-k">К-47</div>
+      <div class="sp-s">НОРМЫ РАСХОДА ПЛОТИ</div>
+      <div class="sp-go">нажмите, чтобы начать</div>
+      <div class="sp-warn">16+ · Игра содержит сцены насилия и жестокого обращения.<br>По мотивам книги «К-47. Нормы расхода плоти. Цикл 48.»</div>
+    </div>
+  </div>
+
+  <script src="js/core.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/missions.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/ai.js"></script>
+  <script src="js/sprites.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/intro.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
